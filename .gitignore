@@ -205,3 +205,46 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MLflow tracking files
+mlruns/
+mlruns_db/
+mlflow.db
+**/mlruns/
+**/mlflow.db
+
+# Ignore model artifacts
+*.pkl
+*.onnx
+*.h5
+*.joblib
+*.pt
+*.pb
+model/
+models/
+artifacts/
+
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
